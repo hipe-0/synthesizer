@@ -35,6 +35,10 @@ code in this repository
 
 shematics: tbd
 
+Audio library analogue connexions:
+![2024-09-21 23_22_59-Audio System Design Tool for Teensy Audio Library](https://github.com/user-attachments/assets/b7d9e195-5441-40b6-9113-86c80dd63448)
+
+
 Bill of Materials:
 - Teensy 4.1 (https://www.pjrc.com/store/teensy41.html)
 - Teensy Audio shield (https://www.pjrc.com/store/teensy3_audio.html)
