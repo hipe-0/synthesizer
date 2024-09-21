@@ -1,17 +1,29 @@
-DIY synthesizer, inspired by the Moog model D synthesizer
+My own DIY synthesizer, created by me in january 2024.
+The spec and interface is inspired by the 1970 Minimoog model D synthesizer, but modernised: multiphonic, usb-midi, 12 waveforms, use of linear potentiometers (https://fr.wikipedia.org/wiki/Minimoog)
 
 Features
-- 26 faders
-- 3 waveforms
-- 1 low pass filter
+- 26x faders
+- 3x voices
+- 12x selectable waveforms on each voice
+- up to 4x notes simultaneously
+- Monophonic / Multiphonic
+- 1x low pass resonnant filter
+- 1x LFO
+- 1x envelope for amplitude
+- 1x envelope for filter cutoff
+- 3x modulation destinations: pitch, filter cut-off and pulse-width
+- 3x modulation sources: modwheel, LFO, waveform 3
+- modulation listen to midi controller mod wheel
+- pitch bend
 - Core : teensy 4.1 microcontroller board
-- LED display
-- LCD display
+- 7x LEDs
+- LCD display, give text feedback about notes and knobs changed
 - usb midi In
 - usb host (to plug a usb midi keyboard on it)
 
+Demo:
+https://github.com/user-attachments/assets/b8aa21a3-99f2-43f9-93a2-1883cc7728f4
 
-https://github.com/user-attachments/assets/b8ebaa04-2abf-4306-970e-d529238cd526
 
 
 ![20240127_132244](https://github.com/user-attachments/assets/ca2eb124-2db5-49ac-ac9a-af0de6883007)
