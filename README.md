@@ -55,4 +55,7 @@ Bill of Materials:
 - 2x analogue multiplexors 16 chanels CD74HC4067 (https://www.aliexpress.com/item/1005005977095161.html)
 - 1x jack female 6mm (https://www.aliexpress.com/item/1005004458769152.html)
 - sheet of plywood 4mm
+- 6x my custom design 3d printed rotary knobs (https://www.thingiverse.com/thing:6774170)
+- 5x my custom design 3d printed faders knob (https://www.thingiverse.com/thing:6774170)
+- 1x red fader knob
 - acrylic paint
