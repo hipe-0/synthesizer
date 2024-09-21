@@ -1,6 +1,10 @@
 My own DIY synthesizer, created by me in january 2024.
 The spec and interface is inspired by the 1970 Minimoog model D synthesizer, but modernised: multiphonic, usb-midi, 12 waveforms, use of linear potentiometers (https://fr.wikipedia.org/wiki/Minimoog)
 
+
+https://github.com/user-attachments/assets/83d63550-5824-47d2-82ff-21bb06fb89ea
+
+
 Features
 - 26x faders
 - 3x voices
@@ -21,8 +25,6 @@ Features
 - usb midi In
 - usb host (to plug a usb midi keyboard on it)
 
-Demo:
-https://github.com/user-attachments/assets/b8aa21a3-99f2-43f9-93a2-1883cc7728f4
 
 
 
