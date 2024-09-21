@@ -1,4 +1,4 @@
-My own DIY synthesizer, created by me in january 2024.
+My own DIY synthesizer, created by me in january 2024. (design, assembly, test, code)
 The audio processing is running on one Teensy 4.1 microprocessor.
 The spec and interface is inspired by the 1970 Minimoog model D analogue synthesizer, but modernised: multiphonic, usb-midi, 12 waveforms, use of linear potentiometers (https://fr.wikipedia.org/wiki/Minimoog)
 
