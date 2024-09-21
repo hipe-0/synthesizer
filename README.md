@@ -59,3 +59,5 @@ Bill of Materials:
 - 5x my custom design 3d printed faders knob (https://www.thingiverse.com/thing:6774170)
 - 1x red fader knob
 - acrylic paint
+- various 3d printed labels
+- 3d printed sides of synthesizer enclosure
