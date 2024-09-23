@@ -20,7 +20,6 @@ https://github.com/user-attachments/assets/83d63550-5824-47d2-82ff-21bb06fb89ea
 - 3x Modulation sources: modwheel, LFO, waveform 3
 - Modulation listen to midi controller mod wheel
 - Pitch bend
-- Core : teensy 4.1 microcontroller board
 - 7x LEDs
 - LCD display, give text feedback about notes and knobs changed
 - USB midi In
@@ -38,7 +37,7 @@ You can recreate this project using:
 In this repository
 
 # shematics
-tbd
+tbd (not completed at this point. It's complex project for my shematic skills)
 
 # Audio library analogue connexions (it's a fully digital simulation of the analogue audio path)
 It's using the open source "Teensy Audio Library" by PRJC ( https://www.pjrc.com/teensy/td_libs_Audio.html )
