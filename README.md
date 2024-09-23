@@ -1,7 +1,7 @@
 This DIY synthesizer was created by me in january 2024. (design, assembly, test, code)
 
 Inspiration: The spec and interface is inspired by the 1970 Minimoog model D analogue synthesizer (https://fr.wikipedia.org/wiki/Minimoog)
-Modernised: multiphonic, usb-midi, 12 waveforms, use of linear potentiometers
+But I have it modernised: 4 voices multiphonic, usb-midi, 12 waveforms, use of linear potentiometers
 
 # Short demo
 https://github.com/user-attachments/assets/83d63550-5824-47d2-82ff-21bb06fb89ea
@@ -37,7 +37,8 @@ You can recreate this project using:
 # code 
 In this repository
 
-# shematics: tbd
+# shematics:
+tbd
 
 # Audio library analogue connexions:
 ![2024-09-21 23_22_59-Audio System Design Tool for Teensy Audio Library](https://github.com/user-attachments/assets/b7d9e195-5441-40b6-9113-86c80dd63448)
