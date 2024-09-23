@@ -1,10 +1,12 @@
-My own DIY synthesizer, created by me in january 2024. (design, assembly, test, code)
-The audio processing is running on one Teensy 4.1 microprocessor.
-The spec and interface is inspired by the 1970 Minimoog model D analogue synthesizer, but modernised: multiphonic, usb-midi, 12 waveforms, use of linear potentiometers (https://fr.wikipedia.org/wiki/Minimoog)
+This DIY synthesizer was created by me in january 2024. (design, assembly, test, code)
 
+Inspiration: The spec and interface is inspired by the 1970 Minimoog model D analogue synthesizer (https://fr.wikipedia.org/wiki/Minimoog)
+Modernised: multiphonic, usb-midi, 12 waveforms, use of linear potentiometers
+
+# Short demo
 https://github.com/user-attachments/assets/83d63550-5824-47d2-82ff-21bb06fb89ea
 
-Features
+# Features
 - 26x faders
 - 3x voices
 - 12x selectable waveforms on each voice
@@ -23,23 +25,25 @@ Features
 - LCD display, give text feedback about notes and knobs changed
 - usb midi In
 - usb host (to plug a usb midi keyboard on it)
+- 1x Teensy 4.1 microprocessor for all audio processing
 
 ![20240127_132244](https://github.com/user-attachments/assets/ca2eb124-2db5-49ac-ac9a-af0de6883007)
 ![20240129_154934](https://github.com/user-attachments/assets/62fbcdee-c000-49c3-8ec4-e17262387ee9)
 ![20240507_175413](https://github.com/user-attachments/assets/8f0f3085-c412-4e98-9714-f11e11df9299)
 ![20240109_073950](https://github.com/user-attachments/assets/cb40a885-a8ef-45ae-9ac5-cef7777bf6d3)
 
-You can recreate this project using
+You can recreate this project using:
 
-code in this repository
+# code 
+In this repository
 
-shematics: tbd
+# shematics: tbd
 
-Audio library analogue connexions:
+# Audio library analogue connexions:
 ![2024-09-21 23_22_59-Audio System Design Tool for Teensy Audio Library](https://github.com/user-attachments/assets/b7d9e195-5441-40b6-9113-86c80dd63448)
 
 
-Bill of Materials:
+# Bill of Materials:
 - Teensy 4.1 (https://www.pjrc.com/store/teensy41.html)
 - Teensy Audio shield (https://www.pjrc.com/store/teensy3_audio.html)
 - usb host cable (from prjc)
