@@ -1,30 +1,31 @@
 This DIY synthesizer was created by me in january 2024. (design, assembly, test, code)
 
 Inspiration: The spec and interface is inspired by the 1970 Minimoog model D analogue synthesizer (https://fr.wikipedia.org/wiki/Minimoog)
-But I have it modernised: 4 voices multiphonic, usb-midi, 12 waveforms, use of linear potentiometers
+But I have modernised it to my taste : 4 voices multiphonic, usb-midi, 12 waveforms, use of 5 linear potentiometers, LCD screen with user feedback, slight delay effect on audio output, surprise resonator added to audio feedback loop
 
 # Short demo
 https://github.com/user-attachments/assets/83d63550-5824-47d2-82ff-21bb06fb89ea
 
 # Features
-- 26x faders
+- 6x faders, 20x potentiometers, 4x rotary switches and 7x switches for audio control
 - 3x voices
-- 12x selectable waveforms on each voice
 - Up to 4x notes simultaneously
+- 12x selectable waveforms on each voice
+- 1x octave selector for the 3x voices (12 presets)
 - Monophonic / Multiphonic
-- 1x low pass resonnant filter
-- 1x LFO
-- 1x Envelope for amplitude
-- 1x Envelope for filter cutoff
+- 1x low pass resonnant filter (typical Moog ladder filter simulation from https://github.com/PaulStoffregen/Audio/blob/master/filter_ladder.h)
+- 1x LFO (low frequency oscilator)
+- 2x Envelopes for amplitude and filter cutoff
+- 3x Modulation sources: LFO or waveform 3 or noise
 - 3x Modulation destinations: pitch, filter cut-off and pulse-width
-- 3x Modulation sources: modwheel, LFO, waveform 3
-- Modulation listen to midi controller mod wheel
-- Pitch bend
+- Modulation listen to midi controller mod wheel (no physical mod wheel on the synth itself)
+- Pitch bend from midi controller (no physical pitch bend wheel on the synth itself)
 - 7x LEDs
 - LCD display, give text feedback about notes and knobs changed
 - USB midi In
 - USB host (to plug a usb midi keyboard on it)
-- 1x Teensy 4.1 microprocessor for all audio processing
+- Currently mono audio output signal
+- Audio processing via 1x Teensy 4.1 microprocessor and a dedicated audio shield (similar to a sound card for a PC)
 
 ![20240127_132244](https://github.com/user-attachments/assets/ca2eb124-2db5-49ac-ac9a-af0de6883007)
 ![20240129_154934](https://github.com/user-attachments/assets/62fbcdee-c000-49c3-8ec4-e17262387ee9)
@@ -48,20 +49,21 @@ You can download my knob design for free on Thingiverse.
 https://www.thingiverse.com/thing:6774170
 
 # Bill of Materials
+Links to store are shown only for convenience. 
 - Teensy 4.1 (https://www.pjrc.com/store/teensy41.html)
 - Teensy Audio shield (https://www.pjrc.com/store/teensy3_audio.html)
-- usb host cable (from prjc)
+- usb host cable (prjc)
 - 5x 75mm Linear potentiometers  (https://www.aliexpress.com/item/4000455671632.html)
 - 1x 45mm Linear potentiometer 
-- 18x Rotary potentiometers (https://www.aliexpress.com/item/1005003680612700.html)
-- 5x Switches (https://www.aliexpress.com/item/1005003568092031.html)
-- 4x Rotary switches (https://www.aliexpress.com/item/4000466292355.html)
-- 1x LCD screen
+- 14x Rotary potentiometers (https://www.aliexpress.com/item/1005003680612700.html)
+- 7x Switches (https://www.aliexpress.com/item/1005003568092031.html)
+- 4x Rotary switches with 12 rotational stops (https://www.aliexpress.com/item/4000466292355.html)
+- 1x LCD screen 70x24mm
 - 1x Rotary encoder (https://www.aliexpress.com/item/1005004907970664.html)
-- 1x USB A plug female connector
-- 7x LEDs WS2812B (7x from a led strip) (https://www.aliexpress.com/item/4001249438672.html)
+- 1x USB A plug female connector (for midi USB host)
+- 7x LEDs WS2812B (cut individually from a 1m led strip) (https://www.aliexpress.com/item/4001249438672.html)
 - 2x analogue multiplexors 16 chanels CD74HC4067 (https://www.aliexpress.com/item/1005005977095161.html)
-- 1x jack female 6mm (https://www.aliexpress.com/item/1005004458769152.html)
+- 1x jack female 6mm (for audio output) (https://www.aliexpress.com/item/1005004458769152.html)
 - Sheet of plywood 4mm
 - 6x My custom design 3d printed rotary knobs
 - 5x My custom design 3d printed faders knob (https://www.thingiverse.com/thing:6774170)
