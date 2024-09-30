@@ -32,6 +32,11 @@ https://github.com/user-attachments/assets/83d63550-5824-47d2-82ff-21bb06fb89ea
 ![20240507_175413](https://github.com/user-attachments/assets/8f0f3085-c412-4e98-9714-f11e11df9299)
 ![20240109_073950](https://github.com/user-attachments/assets/cb40a885-a8ef-45ae-9ac5-cef7777bf6d3)
 
+#License: CC BY-NC
+See https://creativecommons.org/licenses/by-nc/4.0/ This license enables reusers to distribute, remix, adapt, and build upon the material in any medium or format for noncommercial purposes only, and only so long as attribution is given to the creator. CC BY-NC includes the following elements:
+
+BY: credit must be given to the creator. NC: Only noncommercial uses of the work are permitted.
+
 You can recreate this project using:
 
 # code 
